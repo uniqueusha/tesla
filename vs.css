@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hero{
+   height:100vh;
+   background-image: url('./images/model-3.jpg'); 
+   background-position: center;
+   background-size: cover;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.hero1{
+    height:100vh;
+    background-image: url('./images/model-y.jpg'); 
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+ }
+
+.hero2{
+    height:100vh;
+    background-image: url('./images/model-s.jpg'); 
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+ }
+ .hero3{
+    height:100vh;
+    background-image: url('./images/model-x.jpg'); 
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+ }
+ .hero4{
+    height:100vh;
+    background-image: url('./images/solar-panel.jpg'); 
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+ }
+ .hero5{
+    height:100vh;
+    background-image: url('./images/solar-roof.jpg'); 
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+ }
+.uppersection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+h2{
+  font-size: 40px;  
+}
+.lowersection{
+    margin-bottom: 4rem;
+}
+button{
+    padding: 1rem;
+    font-size: 14px;
+    background-color:black;
+    border-radius: 20px;
+    margin:2rem;
+    color:white;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 1rem;
+    color:black;
+}
